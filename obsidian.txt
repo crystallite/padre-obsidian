@@ -1,0 +1,102 @@
+name en-gb Obsidian
+
+
+
+# Padre Internal Editor Colours
+style padre
+StyleSetForeground PADRE_BLACK                    000000
+StyleSetForeground PADRE_BLUE                     000099
+StyleSetForeground PADRE_RED                      990000
+StyleSetForeground PADRE_GREEN                    00aa00
+StyleSetForeground PADRE_MAGENTA                  8b008b
+StyleSetForeground PADRE_ORANGE                   ff8228
+StyleSetForeground PADRE_CRIMSON                  dc143c
+StyleSetForeground PADRE_BROWN                    a52a2a
+StyleSetForeground PADRE_DIFF_HEADER              000000
+StyleSetBackground PADRE_DIFF_HEADER              eeee22
+StyleSetForeground PADRE_DIFF_DELETED             000000
+StyleSetBackground PADRE_DIFF_DELETED             ff8080
+StyleSetForeground PADRE_DIFF_ADDED               000000
+StyleSetBackground PADRE_DIFF_ADDED               80ff80
+StyleSetForeground PADRE_WARNING                  af8000
+StyleSetBackground PADRE_WARNING                  fffff0
+StyleSetForeground PADRE_ERROR                    af0000
+StyleSetBackground PADRE_ERROR                    fff0f0
+# Code folding margin
+SetFoldMarginColour     1 293134
+SetFoldMarginHiColour   1 293134
+MarkerSetForeground     SC_MARKNUM_FOLDEREND      ffffff
+MarkerSetBackground     SC_MARKNUM_FOLDEREND      c00000
+MarkerSetForeground     SC_MARKNUM_FOLDEROPENMID  ffffff
+MarkerSetBackground     SC_MARKNUM_FOLDEROPENMID  c00000
+MarkerSetForeground     SC_MARKNUM_FOLDERMIDTAIL  ffffff
+MarkerSetBackground     SC_MARKNUM_FOLDERMIDTAIL  c00000
+MarkerSetForeground     SC_MARKNUM_FOLDERTAIL     ffffff
+MarkerSetBackground     SC_MARKNUM_FOLDERTAIL     c00000
+MarkerSetForeground     SC_MARKNUM_FOLDERSUB      ffffff
+MarkerSetBackground     SC_MARKNUM_FOLDERSUB      c00000
+MarkerSetForeground     SC_MARKNUM_FOLDER         ffffff
+MarkerSetBackground     SC_MARKNUM_FOLDER         c00000
+MarkerSetForeground     SC_MARKNUM_FOLDEROPEN     ffffff
+MarkerSetBackground     SC_MARKNUM_FOLDEROPEN     c00000
+
+
+
+style text/plain
+include padre
+SetCaretForeground                                e0e2e4
+SetCaretLineBackground                            293134
+SetSelBackground         1                        404e51
+SetSelForeground         1                        ffffff
+StyleAllBackground                                293134
+StyleSetForeground 0                              81969A
+StyleSetBackground STYLE_DEFAULT            293134
+StyleSetForeground STYLE_DEFAULT            81969A
+StyleSetBackground STYLE_LINENUMBER         2f383c
+StyleSetForeground STYLE_LINENUMBER         81969A
+StyleSetForeground STYLE_BRACELIGHT         000000
+StyleSetBackground STYLE_BRACELIGHT         e0e2e4
+StyleSetForeground STYLE_BRACEBAD           81969A
+StyleSetBackground STYLE_BRACEBAD           293134
+
+
+style application/x-perl
+include text/plain
+StyleSetForeground SCE_PL_DEFAULT               e8e2b7
+StyleSetForeground SCE_PL_ERROR                 d51212
+StyleSetForeground SCE_PL_COMMENTLINE           66747b
+StyleSetForeground SCE_PL_POD                   66747b
+StyleSetForeground SCE_PL_POD_VERB              66747b
+StyleSetForeground SCE_PL_NUMBER                ffcd22
+StyleSetForeground SCE_PL_WORD                  678cb1
+StyleSetBold       SCE_PL_WORD                  1
+StyleSetForeground SCE_PL_STRING                ec7600
+StyleSetForeground SCE_PL_CHARACTER             ec7600
+StyleSetForeground SCE_PL_PUNCTUATION           e8e2b7
+StyleSetBackground SCE_PL_PUNCTUATION           000000
+StyleSetForeground SCE_PL_PREPROCESSOR          a082bd
+StyleSetForeground SCE_PL_OPERATOR              e8e2b7
+StyleSetForeground SCE_PL_IDENTIFIER            e0e2e4
+StyleSetForeground SCE_PL_SCALAR                e0e2e4
+StyleSetForeground SCE_PL_ARRAY                 e0e2e4
+StyleSetForeground SCE_PL_HASH                  e0e2e4
+StyleSetForeground SCE_PL_SYMBOLTABLE           93c763
+StyleSetForeground SCE_PL_REGEX                 ec7600
+StyleSetForeground SCE_PL_REGSUBST              ec7600
+StyleSetForeground SCE_PL_LONGQUOTE             ec7600
+StyleSetForeground SCE_PL_BACKTICKS             ec7600
+StyleSetForeground SCE_PL_DATASECTION           ec7600
+StyleSetForeground SCE_PL_HERE_DELIM            ec7600
+StyleSetForeground SCE_PL_HERE_Q                ec7600
+StyleSetForeground SCE_PL_HERE_QQ               ec7600
+StyleSetForeground SCE_PL_HERE_QX               ec7600
+StyleSetForeground SCE_PL_STRING_Q              ec7600
+StyleSetForeground SCE_PL_STRING_QQ             ec7600
+StyleSetForeground SCE_PL_STRING_QX             ec7600
+StyleSetForeground SCE_PL_STRING_QR             ec7600
+StyleSetForeground SCE_PL_STRING_QW             ec7600
+
+# Copyright 2008-2012 The Padre development team as listed in Padre.pm.
+# LICENSE
+# This program is free software; you can redistribute it and/or
+# modify it under the same terms as Perl 5 itself.
