@@ -62,6 +62,7 @@ StyleSetBackground STYLE_BRACEBAD           293134
 
 style application/x-perl
 include text/plain
+StyleSetBackground SCE_PL_DEFAULT               293134
 StyleSetForeground SCE_PL_DEFAULT               e8e2b7
 StyleSetForeground SCE_PL_ERROR                 d51212
 StyleSetForeground SCE_PL_COMMENTLINE           66747b
@@ -76,14 +77,22 @@ StyleSetForeground SCE_PL_PUNCTUATION           e8e2b7
 StyleSetBackground SCE_PL_PUNCTUATION           000000
 StyleSetForeground SCE_PL_PREPROCESSOR          a082bd
 StyleSetForeground SCE_PL_OPERATOR              e8e2b7
+StyleSetForeground SCE_PL_VARIABLE_INDEXER      e0e2e4
 StyleSetForeground SCE_PL_IDENTIFIER            e0e2e4
 StyleSetForeground SCE_PL_SCALAR                e0e2e4
 StyleSetForeground SCE_PL_ARRAY                 e0e2e4
 StyleSetForeground SCE_PL_HASH                  e0e2e4
 StyleSetForeground SCE_PL_SYMBOLTABLE           93c763
-StyleSetForeground SCE_PL_REGEX                 ec7600
-StyleSetForeground SCE_PL_REGSUBST              ec7600
+StyleSetForeground SCE_PL_REGEX                 93c763
+StyleSetForeground SCE_PL_REGSUBST              93c763
+StyleSetForeground SCE_PL_XLAT                  93c763
+StyleSetForeground SCE_PL_REGEX_VAR             e0e2e4
+StyleSetForeground SCE_PL_REGSUBST_VAR          e0e2e4
+StyleSetBackground SCE_PL_REGEX_VAR             293134
+StyleSetBackground SCE_PL_REGSUBST_VAR          293134
 StyleSetForeground SCE_PL_LONGQUOTE             ec7600
+StyleSetForeground SCE_PL_STRING_VAR            e0e2e4
+StyleSetBackground SCE_PL_STRING_VAR            293134
 StyleSetForeground SCE_PL_BACKTICKS             ec7600
 StyleSetForeground SCE_PL_DATASECTION           ec7600
 StyleSetForeground SCE_PL_HERE_DELIM            ec7600
@@ -95,6 +104,19 @@ StyleSetForeground SCE_PL_STRING_QQ             ec7600
 StyleSetForeground SCE_PL_STRING_QX             ec7600
 StyleSetForeground SCE_PL_STRING_QR             ec7600
 StyleSetForeground SCE_PL_STRING_QW             ec7600
+StyleSetForeground SCE_PL_BACKTICKS_VAR         e0e2e4
+StyleSetForeground SCE_PL_HERE_QQ_VAR           e0e2e4
+StyleSetForeground SCE_PL_HERE_QX_VAR           e0e2e4
+StyleSetForeground SCE_PL_STRING_QQ_VAR         e0e2e4
+StyleSetForeground SCE_PL_STRING_QX_VAR         e0e2e4
+StyleSetForeground SCE_PL_STRING_QR_VAR         e0e2e4
+StyleSetBackground SCE_PL_XLAT                  293134
+StyleSetBackground SCE_PL_BACKTICKS_VAR         293134
+StyleSetBackground SCE_PL_HERE_QQ_VAR           293134
+StyleSetBackground SCE_PL_HERE_QX_VAR           293134
+StyleSetBackground SCE_PL_STRING_QQ_VAR         293134
+StyleSetBackground SCE_PL_STRING_QX_VAR         293134
+StyleSetBackground SCE_PL_STRING_QR_VAR         293134
 
 # Copyright 2008-2012 The Padre development team as listed in Padre.pm.
 # LICENSE
